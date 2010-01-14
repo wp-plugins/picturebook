@@ -10,9 +10,11 @@ Stable tag: 1.0
 
 == Description ==
 
-"PictureBook" allows for the combination of both text and images when displaying a list of bookmarks. As with the case of this web site the footer contains a few social bookmarking links each containing the name of the social bookmarking site and a small icon all through the wonderful world of WordPress’ “Links” tab.
+"PictureBook" allows for the combination of both text and images when displaying a list of bookmarks. As with the case of this web site the footer contains a few social bookmarking links each containing the name of the social bookmarking site and a small icon all through the wonderful world of WordPress' "Links" tab.
 
-Achieving this goal is possible with a little core manipulation but we thought it would be more productive to simply install a plugin and not worry about the next WordPress update. The plugin code itself is a simple matter of re-functioning the current wp_list_bookmarks. By altering the link_image output to display the link_name it is possible to achieve the desired effect. The biggest benefit of this plugin is that a user is allowed to display their bookmarks in three separate formats: text-only, image-only and now a combination of both.
+Achieving this goal is possible with a little core manipulation but we thought it would be more productive to simply install a plugin and not worry about the next WordPress update.
+
+The plugin code itself is a simple matter of re-functioning the current wp_list_bookmarks. By altering the link_image output to display the link_name it is possible to achieve the desired effect. The biggest benefit of this plugin is that a user is allowed to display their bookmarks in three separate formats: text-only, image-only and now a combination of both.
 
 
 == Screenshots ==
@@ -39,4 +41,4 @@ To install the plugin just follow these simple steps:
 
 With more recent versions of WordPress using the following code will achieve the same effect by way of "show_images=TRUE&show_name=TRUE": 
 
-<?php wp_list_bookmarks('title_li=&categorize=0&category=4&show_images=TRUE&show_name=TRUE'); ?>
+<code><?php wp_list_bookmarks('title_li=&categorize=0&category=4&show_images=TRUE&show_name=TRUE'); ?></code>
