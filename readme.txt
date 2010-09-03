@@ -10,6 +10,9 @@ Stable tag: 1.0
 
 == Description ==
 
+= Plugin URL =
+http://www.doc4design.com/plugins/picturebook/
+
 "PictureBook" allows for the combination of both text and images when displaying a list of bookmarks. As with the case of this web site the footer contains a few social bookmarking links each containing the name of the social bookmarking site and a small icon all through the wonderful world of WordPress' "Links" tab.
 
 Achieving this goal is possible with a little core manipulation but we thought it would be more productive to simply install a plugin and not worry about the next WordPress update.
