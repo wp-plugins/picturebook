@@ -3,7 +3,7 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: blogroll, blogroll titles, blogroll images, links, link images, bookmarks, bookmark images
 Requires at least: 2.3
-Tested up to: 2.9.1
+Tested up to: 3.1
 Stable tag: 1.0
 
 
