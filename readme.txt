@@ -3,7 +3,7 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: blogroll, blogroll titles, blogroll images, links, link images, bookmarks, bookmark images
 Requires at least: 2.3
-Tested up to: 3.1
+Tested up to: 3.5
 Stable tag: 1.0
 
 
@@ -13,11 +13,13 @@ Stable tag: 1.0
 = Plugin URL =
 http://www.doc4design.com/plugins/picturebook/
 
-"PictureBook" allows for the combination of both text and images when displaying a list of bookmarks. As with the case of this web site the footer contains a few social bookmarking links each containing the name of the social bookmarking site and a small icon all through the wonderful world of WordPress' "Links" tab.
+Built for the sole purpose of displaying WordPress bookmark links that show both text and an attached icon. Utilizing the 'Links' tab ( WordPress 2.7 + up ), it is possible to display them as either a list of text links or a list of icon links but not both at the same time.
 
-Achieving this goal is possible with a little core manipulation but we thought it would be more productive to simply install a plugin and not worry about the next WordPress update.
+Enter PictureBook, a small plugin that provides the necessary code to list your bookmarks with both text and icons. An example use might be in the footer of a website that contains social bookmarking links, each link could show the name of the social media website and a small icon next to it just by entering your information into the WordPress' "Links" tab. Achieving this goal is possible with a little core manipulation but we thought it would be more productive to simply install a plugin and not worry about the next WordPress update.
 
-The plugin code itself is a simple matter of re-functioning the current wp_list_bookmarks. By altering the link_image output to display the link_name it is possible to achieve the desired effect. The biggest benefit of this plugin is that a user is allowed to display their bookmarks in three separate formats: text-only, image-only and now a combination of both.
+The plugin code itself is just a re-functioning the current wp_list_bookmarks. By altering the link_image output to display the link_name, it becomes possible to achieve our desired effect. The biggest benefit of this plugin is that a user is allowed to display their bookmarks in three separate formats: text-only, image-only and a combination of both.
+
+In the following example, we are using the standard WordPress wp_list_bookmarks formatting with a new function name wp_list_picturebook. All parameters associated with the original tag are functional. The code shown here will display a list of bookmarks with both text and images, no headline and only list those bookmarks from category 4. Because WordPress auto adds our line item tags ( <li> ) they do not need to be included.
 
 
 == Screenshots ==
