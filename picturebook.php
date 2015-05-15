@@ -3,7 +3,7 @@
 Plugin Name: PictureBook
 Plugin URI: http://www.doc4design.com/plugins/picturebook
 Description: Display your blogroll links with both text and images
-Version: 1.0
+Version: 1.1
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
